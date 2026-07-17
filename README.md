@@ -1,4 +1,4 @@
-# FIVI — video search aggregator
+# SODZZO — video search aggregator
 
 Webová appka (HTML/CSS/JS frontend + dve malé serverless funkcie), ktorá
 vyhľadáva videá naraz na YouTube, Vimeo a Dailymotion a prehráva ich priamo
@@ -56,7 +56,7 @@ ho do `.gitignore`). Bez Netlify CLI appka lokálne nájde len Dailymotion.
    Environment variables** → **Add a variable** a pridaj:
    - `YOUTUBE_API_KEY` = tvoj YouTube kľúč z kroku 1
    - `VIMEO_ACCESS_TOKEN` = tvoj Vimeo token z kroku 2
-5. Netlify appku zdeployne a dá ti verejnú adresu (napr. `fivi-abcd.netlify.app`)
+5. Netlify appku zdeployne a dá ti verejnú adresu (napr. `sodzzo-abcd.netlify.app`)
 
 (Git-prepojenie namiesto drag-and-drop je potrebné práve preto, aby Netlify
 mohol nasadiť aj tie serverless funkcie, nielen statické súbory.)
@@ -65,7 +65,7 @@ mohol nasadiť aj tie serverless funkcie, nielen statické súbory.)
 
 - **YouTube**: bežná reklama niekde inde na stránke appky (nie na/v rámci
   YouTube prehrávača) je povolená, pokiaľ appka ponúka aj nezávislú hodnotu
-  okrem YouTube dát — čo FIVI spĺňa (agreguje aj Vimeo a Dailymotion).
+  okrem YouTube dát — čo SODZZO spĺňa (agreguje aj Vimeo a Dailymotion).
 - **Vimeo aj Dailymotion**: akákoľvek reklama vyžaduje ich predchádzajúci
   písomný súhlas.
 
