@@ -127,8 +127,8 @@ header,main,.player-overlay{ position:relative; z-index:1; }
 }
 .search-bar input::placeholder{ color:var(--muted); }
 .search-bar button{
-  background:transparent;
-  border:1px solid var(--red);
+  background:var(--panel-2);
+  border:1px solid var(--border);
   color:var(--text);
   font-family:var(--font-body);
   font-weight:600;
@@ -136,9 +136,9 @@ header,main,.player-overlay{ position:relative; z-index:1; }
   padding:9px 20px;
   border-radius:8px;
   cursor:pointer;
-  transition:background .15s ease;
+  transition:border-color .15s ease;
 }
-.search-bar button:hover{ background:var(--red); }
+.search-bar button:hover{ border-color:var(--muted); }
 
 .platform-pills{
   display:flex;
